@@ -99,3 +99,68 @@ background-color: rgb(145, 85, 224);
     right: 35px;
     color:black;
 }
+
+@media screen and (max-width:320px) {
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+    .login-form {
+        border-radius: 20px;
+        padding: 25px;
+    }
+    
+    .login-form h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .user-name input {
+        position: relative;
+        width: 200px;
+        height: 40px;
+        padding: 10px 10px;
+        margin-left: 20px;
+    }
+    .login-form .forget {
+        margin-top: 30px;
+        font-size: 10px;
+        color:black;
+    }
+    
+    .forget a {
+        color: rgb(145, 85, 224);
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    .reb input{
+        width: 10px;
+        margin-left: 18px;
+        
+    }
+    .login-form .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn button {
+        margin-top: 18px;
+        width: 220px;
+        height: 45px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .user-name i {
+        position: relative;
+        right: 35px;
+        color:black;
+    }
+ 
+    
+}
